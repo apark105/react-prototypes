@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import MovieContainer from './movie_container';
+import React from 'react';
+import MovieContainer from './movieContainer';
+// import Movie from './movie';
 
 function App() { 
     return (
         <div className="container">
-            <h1 className="text-center">Axios Demo</h1>
+            <h1 className="text-center">Top 10 Movies</h1>
             <MovieContainer/>
         </div>
     )
